@@ -1,0 +1,55 @@
+.about{
+    max-width: 1140px;
+    margin: auto;
+    
+    
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 4rem 0;
+
+    text-align: center;
+    align-items: center;
+}
+
+.about-me h1{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.about-me p{
+    max-width: 640px;
+    padding-bottom: 0.2rem;
+    text-align: justify;
+    align-items: center;
+}
+
+
+.company{
+    padding: 1.2rem 0;
+    color: #6f9ba7;
+
+}
+
+.year{
+    padding-left: 4rem;
+    color: #cdcccc;
+
+}
+
+.position{
+    padding-left: 4rem;
+    color: #cdcccc;
+
+}
+
+.experience p{
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+    max-width: 1140px;
+    text-align: justify;
+    align-items: center;
+    color: #cdcccc;
+}

@@ -1,0 +1,16 @@
+.section-container {
+    text-align: left;
+    max-width: 1140px;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.section-default {
+    display: inline;
+    color: #3182ce;
+}
+
+.section-heading{
+    display: inline;
+    color: #e86f54;
+}

@@ -1,0 +1,108 @@
+.footer{
+    width: 100%;
+    padding: 3rem 0;
+    background-color: rgba(19, 19, 19, 0.8);
+}
+
+.footer h1{
+    text-align: left;
+    max-width: 1140px;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+.left{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.location{
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+.location p{
+    line-height: 30px;
+}
+
+.phone {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.middle{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items:flex-start;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.social .linkedin{
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.social .github{
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.social h4{
+    padding-top: 0.5rem;
+}
+
+.right{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items:flex-start;
+}
+
+.resume a{
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.resume h4{
+    padding-top: 0.5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    padding-bottom: 0.7rem;
+}
+
+p, a{
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 640px) {
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+}
