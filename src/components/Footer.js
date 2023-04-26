@@ -51,7 +51,9 @@ function Footer() {
             </div>
             <div
               className="github"
-              onClick={() => window.open("https://github.com/harry-santoso")}
+              onClick={() =>
+                window.open("https://github.com/harry-santoso?tab=repositories")
+              }
             >
               <IconButton sx={{ color: "white", mr: 0.5 }}>
                 <GitHubIcon fontSize="large" />
