@@ -10,12 +10,12 @@ function ProjectCard(props) {
         <p>{props.text}</p>
       </div>
       <div className="project-btns">
-        <NavLink to={props.view} className="btn">
+        {/* <NavLink to={props.view}  className="btn">
           View
-        </NavLink>
-        <NavLink to={props.source} className="btn">
+        </NavLink> */}
+        <a href={props.source} target="_blank" rel="noreferrer" className="btn">
           Source
-        </NavLink>
+        </a>
       </div>
     </div>
   );
