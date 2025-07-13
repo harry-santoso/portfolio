@@ -6,7 +6,7 @@ function AboutContent() {
   return (
     <div className="about">
       <div className="about-me">
-        <h1>Who Am I?</h1>
+        <h1>About Me!</h1>
         <p>
           I'm a fresh graduate Master of IT student specalizing in Full Stack
           Development. I am still learning everyday to improve myself and keep
